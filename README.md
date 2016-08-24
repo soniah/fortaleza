@@ -16,7 +16,8 @@ Fortaleza is a program for calculating phone charges
   pricing rules.
 
 * I ran out of time, so the code in `OnePricing()` is messy and needs a
-  lot of refactoring and unit tests
+  lot of refactoring and unit tests. Also due to time constraints
+  commenting and code layout could be improved.
 
 * I made the mistake of using YAML to import testing data into the
   structs, which then meant I couldn't implement the cart interface
@@ -34,4 +35,4 @@ Fortaleza is a program for calculating phone charges
   cents ie `$1` is stored as `10000`
 
 * I used the `gopkg.in/yaml.v2` library as it's not included in the
-  GoLang standard library (even though *JSON* is included)
+  GoLang standard library (even though *JSON* **is** included)
